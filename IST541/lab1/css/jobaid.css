@@ -2,7 +2,7 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color:cornflowerblue;   /* background color */
+	background-color:cornflowerblue;  /* background color */
 	color:#030303;          /* text color for the entire page */
 	font-size: 18px;
 	font-family:'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif'
@@ -23,27 +23,48 @@ h1, h2 {
 	padding:10px;
 	text-align:left;
 	font-size:24px;
-	background-color:#F7B857
+	background-color:lightskyblue;
+	border-radius:50px;
  }
 
 .stepContent{ 
-	background-color: #B8C5D4;
-	padding:7px;
+	background-color: white;
+	padding:10px;
 	display: flex;
 	justify-content: center;
+	border-style:double;
+	border-radius:50px;	
 }
 
 .stepDescription {
 	width:55%;
-	padding:5px;
+	padding:20px;
 }
 
 .stepImage {
 	width:60%;	
 	padding:8px;
 	text-align: center;
-	border-radius: 100;
+	border-top-left-radius: 20;
+	border-bottom-left-radius: 20;
+	border-bottom-right-radius: 20;
+}
+img{border-radius:50px;
+	box-shadow: 0 4px 8px 0 gray, 0px 20px 0 gray;
+	
 }
 
+
+.warning {
+	background-color: pink;
+	font-weight:inherit;
+	padding:10px;
+	border-radius:20px;
+}
+
+.material-icons {
+	color:red; 
+	font-size:3em;
+}
 
 
