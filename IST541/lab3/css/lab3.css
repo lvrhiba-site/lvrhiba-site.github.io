@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+body {
+	text-align: center;
+	background-color: #CFCFCF;
+	font-size: 18px;
+	
+}
+
+	a {
+	padding: 20px;
+	padding-top: 10px;	
+	padding-bottom: 30px;
+    margin: 5px;
+	font-size: 125%;
+	background-color:#6188DD; 
+	color: #143090; 
+		
+}
+
+
+a:hover {
+	font-size:200%;
+	background-color: #D1BABA; 
+	color: #3043B5; 
+}
+.iframe{border-radius:50px;
+	box-shadow:0 5px 0 green, 0px 20px 0 green;
+		
+}
+#border{
+	width:800px;
+	margin:0 auto;
+	height: 80px;
+	background-color:#3FBCCE;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-radius:20px;
+	text-align:center;	
+	border-style: double
+}
+		
+
+#map{ 
+ border:10px solid #505050;
+}
+
+#edpuzzle{
+border:10px solid #505050;	
+}
+
