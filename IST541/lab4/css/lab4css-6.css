@@ -22,3 +22,22 @@ a:hover {
 	background-color:aquamarine; 
 	color: your_color_of_choice; 
 }
+h1, h2 {  
+   text-align:center;margin-left:0;
+	/* centers h1 and h2 content */
+   color:black;       /* exploring new text color */
+}
+
+h1 {
+	font-size: 50px;
+}
+p{
+	font-size: 20px;
+	text-align:left;margin-left:0;
+}
+
+.points { 
+    font-size: 20px;
+	font-style: italic;
+	text-align:left;margin-left:0;
+}
