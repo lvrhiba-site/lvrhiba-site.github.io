@@ -9,14 +9,11 @@ a {
 	padding: 15px;
     margin: 3px;
 	font-size: 125%;
-	background-color:beige; 
+	background-color:#8E9EB7; 
 	color:blueviolet; 
 }
-a:hover {
-	font-size:200%;
-	background-color:saddlebrown; 
-	color:black; 
-}
+
+
 a:hover {
 	font-size:200%;
 	background-color:aquamarine; 
