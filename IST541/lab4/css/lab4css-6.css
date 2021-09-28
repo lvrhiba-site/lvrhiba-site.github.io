@@ -39,13 +39,13 @@ p{
 	text-align:left;margin-left:0;
 }
 #effect{
-	width:600px;
+	width:700px;
 	margin:0 auto;
 	height: 40px;
 	background-color:#8E9EB7;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	border-radius:20px;
+	border-radius:0px;
 	text-align:center;	
 	border-style:inherit
 }
