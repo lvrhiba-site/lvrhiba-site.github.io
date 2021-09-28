@@ -44,16 +44,16 @@ p{
 	height: 40px;
 	background-color:#8E9EB7;
 	padding-top: 10px;
-	padding-bottom: 0px;
+	padding-bottom:10px;
 	border-radius:0px;
 	text-align:center;	
-	border-style:inherit
+	border-style:hidden
 }
 
-#container{
-margin:0;
-padding:0;
+.container{
+margin:10px;
+padding:10px;
 text-align: center;
 position:relative;
-top:50%;	
+	
 }
