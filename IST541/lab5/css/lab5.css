@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+
+ #lebflag.jpeg {
+border: black 5px solid;
+}
+ 
+ #beirut.jpeg {
+display: none;
+border: black 5px solid;
+}
