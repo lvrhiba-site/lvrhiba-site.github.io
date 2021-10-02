@@ -7,13 +7,22 @@ margin: 0 auto;
 text-align: center;
 }
 
- #lebflag.jpeg {
+ #lebflag_jpeg {
 border: black 5px solid;
 }
  
- #beirut.jpeg {
+ #beirut_jpeg {
 display: none;
 border: black 5px solid;
 }
 
  
+body{
+	background-image: url("../img/place.jpeg");
+background-repeat:no-repeat;
+	background-size: cover;
+
+}
+.choices{
+	color:white;
+}
