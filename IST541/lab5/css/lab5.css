@@ -40,8 +40,22 @@ background-repeat:no-repeat;
 .choices {
 cursor: pointer;
 }
-#Next{
-	font-size: 2em;
-	font-display:#1E34CB;
-	font-display:solid bold,
+a {
+	padding: 15px;
+	margin:0 auto;
+	font-size: 115%;
+	background-color: #2321D0;
+	color: white; /*link font color*/
+	border-radius:10px;
+	font-family: Helvetica, Arial, sans-serif;
 }
+#answer{
+	padding: 10px;
+	margin: 0px;
+	font-size: 115%;
+	background-color: #2321D0;
+	color: white; /*link font color*/
+	border-radius:5px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
