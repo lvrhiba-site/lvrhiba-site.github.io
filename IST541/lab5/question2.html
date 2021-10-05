@@ -5,19 +5,49 @@
 <title>question2.html</title>
 	<link href="css/lab5.css" rel="stylesheet" type="text/css">
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script>
+$(function(){
+	
+$("#option1").click(function(){
+ $("#feedback").html("<h2 style="color:red"> Tripoli is the second largest city in Lebanon, with an approximate population of 730,000. </h2>");
+ $("#capital_jpeg").css("display","none");
+});
+
+ $("#option2").click( function(){
+    $("#feedback").html("<h2 style="color:red">Not the Capital, but one of the oldest contiually inhabited cities in the world.It is the 4th largest city after Beirut </h2>");
+ $("#capital_jpeg").css("display","none");
+});
+$("#option3").click( function(){
+   $("#feedback").html("<h2 style="color:green"> Correct! Beirut is the Capital of Lebanon and the largest by population.</h2>");
+   $("#capital_jpeg").css("display","inline");
+	});
+	
+	$("#option4").click( function(){
+    $("#feedback").html("<h2 style="color:red">Not the Capital.One of the most important Phoenician  cities in the world. </h2>");
+ $("#capital_jpeg").css("display","none");
+		
+   });
+	
+});
+</script>
+	
 </head>
 
 <body>
-	<div id="wrapper">
-<h1>What is the capital of Lebanon?</h1>
-<h3>Click on one of the following choices</h3>
- 
+<a id="Next" href="question1.html">Back</a>
+<div id="wrapper"> <br>
+<h1 id="text1">What is the capital of Lebanon?</h1>
+<h3 id="text3">Click on one of the following choices</h3>
+ <br>
 <h2 id="option1" class="choices"> Tripoli </h2>
 <h2 id="option2" class="choices"> Tyre </h2>
 <h2 id="option3" class="choices"> Beirut </h2>
 <h2 id="option4" class="choices"> Sidon </h2>
  
 <div id="feedback"></div>
+	<img id="capital_jpeg" src="img/capital.jpeg" alt="capital"/>
+	
 </div>
 </body>
 </html>

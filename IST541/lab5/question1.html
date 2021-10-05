@@ -12,12 +12,12 @@ $( function(){
 	
 $("#lebflag_jpeg").mouseenter( function(){
  $("#lebflag_jpeg").css("display","none");
- $("#beirut_jpeg").css("display","inline");	$("#answer").html("<h2>Beirut</h2>");
+ $("#capital_jpeg").css("display","inline");	$("#answer").html("<h2>Beirut</h2>");
 });
 
-$("#beirut_jpeg").mouseleave( function(){
+$("#capital_jpeg").mouseleave( function(){
  $("#lebflag_jpeg").css("display","inline");
- $("#beirut_jpeg").css("display","none");
+ $("#capital_jpeg").css("display","none");
  $("#answer").html("");
  });
 
@@ -28,17 +28,25 @@ $("#beirut_jpeg").mouseleave( function(){
 </head>
 
 <body>
+<a id= "Next" heref="question2.html"> Next</a>	
 	<div id="wrapper">
  
-<h1>What is the capital of Lebanon?</h1>
+<h1 id="text1">What is the capital of Lebanon?</h1>
  
 <h3 id="hint">Hint: Hover over the image below to find out!</h3>
+<br><br>		
  
-<img   src="img/lebflag.jpeg" id="lebflag_jpeg"   />
+<img   src="img/lebflag.jpeg" id="lebflag_jpeg" alt="flag"  />
  
-<img src="img/beirut.jpeg" id="beirut_jpeg" />
+<img src="img/capital.jpeg" id="capital_jpeg" alt="capital"/>
  
-           <div id="answer"></div>  
+           <div id="answer"> alt="capital"</div>  
+
+
+	
+		
+		
+	
            <!-- This is a placeholder to display here the answer-->
  
 </div> <!-- closing  “wrapper” -->

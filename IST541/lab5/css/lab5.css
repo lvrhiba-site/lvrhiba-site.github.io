@@ -9,14 +9,16 @@ text-align: center;
 
  #lebflag_jpeg {
 border: black 5px solid;
+	width: 300; height: 200;
+	  
 }
  
- #beirut_jpeg {
+ #capital_jpeg {
 display: none;
 border: black 5px solid;
+width: 200; height: 100;	 
 }
 
- 
 body{
 	background-image: url("../img/place.jpeg");
 background-repeat:no-repeat;
@@ -25,4 +27,21 @@ background-repeat:no-repeat;
 }
 .choices{
 	color:white;
+}
+#text3{
+	color:white;
+}
+#text1{
+	color:white;
+}
+#hint{
+	color:white;
+}
+.choices {
+cursor: pointer;
+}
+#Next{
+	font-size: 2em;
+	font-display:#1E34CB;
+	font-display:solid bold,
 }
