@@ -42,20 +42,21 @@ cursor: pointer;
 }
 a {
 	padding: 15px;
-	margin:0 auto;
+	margin: 3px;
 	font-size: 115%;
-	background-color: #2321D0;
+	background-color: #2643CE;
 	color: white; /*link font color*/
-	border-radius:10px;
+	border-radius:20px;
 	font-family: Helvetica, Arial, sans-serif;
 }
 #answer{
-	padding: 10px;
-	margin: 0px;
+	padding: 15px;
+	width:60px;
 	font-size: 115%;
-	background-color: #2321D0;
+	background-color: #2643CE;
 	color: white; /*link font color*/
-	border-radius:5px;
+	border-radius:20px;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+	
