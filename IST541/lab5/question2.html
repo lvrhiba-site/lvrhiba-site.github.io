@@ -11,17 +11,17 @@
 $(function(){
 	
 $("#option1").click( function(){
-$("#feedback").html("<h2 style='color:red'> Tripoli is the second largest city in Lebanon, with an approximate population of 730,000. </h2>");
+$("#feedback").html("<h2 style='color:pink'> Tripoli is the second largest city in Lebanon, with an approximate population of 730,000. </h2>");
 $("#capital_jpeg").css("display","none");
 });
 
 $("#option2, #option4").click( function(){
-$("#feedback").html("<h2 style='color:red'> Not the Capital, but one of the oldest continually inhabited cities in the world.</h2>");
+$("#feedback").html("<h2 style='color:pink'> Not the Capital, but one of the oldest continually inhabited cities in the world.</h2>");
 $("#capital_jpeg").css("display","none");
 }); 
 
 $("#option3").click( function(){
-$("#feedback").html("<h2 style='color:green'> Correct! Correct! Beirut is the Capital of Lebanon and the largest by population.</h2>");
+$("#feedback").html("<h2 style='color:white'> Correct! Beirut is the Capital of Lebanon and the largest by population 2.2 million.</h2>");
 $("#capital_jpeg").css("display","inline");
 
  });
@@ -35,7 +35,7 @@ $("#capital_jpeg").css("display","inline");
 
 	
 <div id="wrapper"> <br>
-<h1 id="text1">What is the capital of Lebanon?</h1>
+<h1 id="text1">What is the capital of Lebanon?</h1><br>
 	<a href="question1.html"> Lebanon</a>
 	<a href="question2.html"> Quiz</a>
 
@@ -47,6 +47,7 @@ $("#capital_jpeg").css("display","inline");
 <h2 id="option3" class="choices"> Beirut </h2>
 <h2 id="option4" class="choices"> Sidon </h2>
  
+	<div id= "option1_feedback"></div>
 <div id="feedback"></div>
 <img id="capital_jpeg" src="img/capital.jpeg" alt="capital"/>
 	
