@@ -10,17 +10,19 @@
 <script>
 $( function(){
 	
-	
 $("#flag_jpeg").mouseenter( function(){
- $("#flag_jpeg").css("display","none");
- $("#capital_jpeg").css("display","inline");	$("#answer").html("<h2>Beirut</h2>");
+$("#flag_jpeg").css("display","none");
+$("#capital_jpeg").css("display","inline");
+$("#hint").css("visibility","hidden");
+$("#answer").html("<h2>Beirut!</h2>");
 });
 
 $("#capital_jpeg").mouseleave( function(){
- $("#flag_jpeg").css("display","inline");
- $("#capital_jpeg").css("display","none");
- $("#answer").html("");
- });
+$("#flag_jpeg").css("display","inline");
+$("#capital_jpeg").css("display","none");
+$("#hint").css("visibility","visible");
+$("#answer").html("");
+});
 
 });
 
