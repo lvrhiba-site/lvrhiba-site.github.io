@@ -18,7 +18,7 @@ $( function() {
       }
 if ($(this).attr("id") == "Saudi") {
          $("#feedback").css("color","red");
-         $("#feedback").html("No,Saudi is the one of the gulf countries");
+         $("#feedback").html("No,Saudi is one of the gulf countries the speak the Standard Arabic ,but their dialect known as Khalegi");
       }
 
   $("#feedback").css("backgroundColor","yellow");
