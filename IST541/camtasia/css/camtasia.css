@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color: #54679B;  
+}
+a {
+	padding: 15px;
+    margin: 3px;
+	font-size: 125%;
+	background-color: darkslateblue;
+	color:white; 
+}
+a:hover {
+	font-size:100%;
+	background-color:paleturquoise; 
+	color:grey; 
+}
+
+h2 {
+	font-family: "kotta-one", lancelot, Georgia, Times New Roman, serif !important;  
+	text-align: left;
+	padding-left: 40px; 
+	padding-right: 40px;
+}
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	font-size:24px;
+	background-color:lightskyblue;
+	border-radius:20px;
+ }
+
+.stepContent{ 
+	background-color: #C7C7C7;
+	padding:10px;
+	display: flex;
+	justify-content: center;
+	border-style:solid;
+	border-radius:50px;	
+	font-size:24px;
+	text-align:left;
+}
+
+.stepDescription {
+	width:60%;
+	padding:20px;
+}
+
+.stepImage {
+	width:60%;	
+	padding:8px;
+	text-align: center;
+	border-top-left-radius: 20;
+	border-bottom-left-radius: 20;
+	border-bottom-right-radius: 20;
+}
+img{border-radius:10px;
+	box-shadow: 0 4px 8px 0 gray, 0px 20px 0 gray;
+	
+}
+
