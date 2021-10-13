@@ -22,6 +22,7 @@ $( function() {
          $("#feedback").html("Yes,Palestine is the forth Levant countries.");
       }
   $("#feedback").css("backgroundColor","yellow");
+ $('#myModal').modal("show");
 
    });
 }); //end main jQuery function
