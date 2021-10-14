@@ -3,6 +3,7 @@
 
 body {
 	text-align: center;
+	padding-top: 70px;
 	background-color: #54679B;  
 }
 a {
@@ -43,11 +44,6 @@ h2 {
 	text-align:left;
 }
 
-.stepDescription {
-	width:75%; margin:auto;
-	padding:20px;
-}
-
 .stepImage {
 	width:60%;	
 	padding:8px;
@@ -60,4 +56,4 @@ img{border-radius:10px;
 	box-shadow: 0 4px 8px 0 gray, 0px 20px 0 gray;
 	
 }
-.class{width:75%; margin:auto; }
+.step{width:80%; margin:auto; height:50%;}
