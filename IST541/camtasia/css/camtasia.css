@@ -16,7 +16,6 @@ body {
 	padding-bottom: 40px;
 	padding-left: 40px;
 	badding-right: 40px;
-	
 }
 a {
 	padding: 15px;
@@ -69,3 +68,7 @@ img{border-radius:10px;
 	
 }
 .step{width:80%; margin:auto; height:50%;}
+
+#mayer{ align-left: 40px;
+adding-left: 40px; 
+padding-right: 40px;}
