@@ -73,6 +73,19 @@ img{border-radius:10px;
 adding-left: 40px; 
 padding-right: 40px;}
 
+#video1_png {
+border: black 5px solid;
+	width: 450px; 
+	height:450px;
+	  
+}
+ 
+ #video2_png {
+display: none;
+border: black 5px solid;
+width: 450px; 
+height:450px;	 
+}
 
 
 

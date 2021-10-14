@@ -7,7 +7,27 @@
 
 <link rel="stylesheet" herf="css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>	
+<script src="js/bootstrap.min.js"></script><script>
+$( function(){
+	
+$("#video2.png").mouseenter( function(){
+$("#video2.png").css("display","none");
+$("#video1.png").css("display","inline");
+$("#hint").css("visibility","hidden");
+$("#answer").html("<h2>Applying contiguity!</h2>");
+});
+
+$("#video2.png").mouseleave( function(){
+$("#video1.png").css("display","inline");
+$("#video2.png").css("display","none");
+$("#hint").css("visibility","visible");
+$("#answer").html("");
+});
+
+});
+
+</script>
+	
 </head>
 
 <body>
@@ -24,18 +44,11 @@
 	 <h1> Richard Mayer's point of view on videos </h1>
 	
 	
-<iframe id="mayer" width="560" height="315"
-src="https://www.youtube.com/embed/S3fYg6OuTIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RsasOZQef6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
 	
-<details>
-  <summary>Recap Mayer's main ideas</summary>
-  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-</details>	
-<details>
-  <summary>Recap Mayer's main ideas</summary>
-  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
-</details>		
+		
 	
+<p>&nbsp;</p>
 </body>
 </html>
