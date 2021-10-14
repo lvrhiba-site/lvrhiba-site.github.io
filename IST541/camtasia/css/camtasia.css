@@ -4,7 +4,19 @@
 body {
 	text-align: center;
 	padding-top: 70px;
-	background-color: #54679B;  
+	background-color:#54679B;
+}
+#wrapper{
+	background-color:#F1EDE1;
+	width:1000px;
+	margin: 0 auto 40px auto;
+	border-radius: 0px;
+	border: solid 2px #efebdc;
+	box-shadow: 0 2px 4px 0 grey, 0 2px 0 #efebdc;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	badding-right: 40px;
+	
 }
 a {
 	padding: 15px;
