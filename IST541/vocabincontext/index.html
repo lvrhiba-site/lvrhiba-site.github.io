@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="css/vocabincontext.css" rel="stylesheet" type="text/css">
+	
+<script>src="https://code.jquery.com/jquery-2.1.0.min.js"></script>	
+
+<script>
+   $( function() {
+	   
+	   $("#video1_png").mouseenter( function(){
+		   $("video1_png").css("display","none");
+		   $("#video2_png").css("display","inline");
+		   $("#hint").css("visibility","hidden");
+		   $("#answer").html("<h2>Adding vocabulary in context applying Contiguity and Signaling principle</h2>");
+	   });
+	   
+	   $("#video1_png").mouseleave( function(){
+		   $("#video1_png").css("display","inline");
+		   $("#video2_png").css("display","none");
+		   $("#hint").css("visibility","visible");
+		   $("#answer").html("");
+	   });
+	   
+   });
+</script>	
+	
+</head>
+
+<body>
+	
+<div id="wrapper">
+ 
+<h1>Adding vocabulary in context over the  listening excerpt</h1>
+ 
+<h3 id="hint">Hint: Hover over the image to see the difference!</h3>
+ 
+<img id="video1_png"   src="img/video1.png"   />
+ 
+<img id="video2_png" src="img/video2.png" />
+ 
+           <div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
+ 
+</div> <!-- closing  “wrapper” -->
+
+</body>
+</html>
