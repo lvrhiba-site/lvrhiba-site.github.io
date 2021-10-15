@@ -10,26 +10,25 @@
 <script src="js/bootstrap.min.js"></script><script>
 	
 	<script>
-$( function()
+$( function() {
 	
-$("#video1_png").mouseenter( function(){
-$("#video1_png“)css("display","none");
-$("#video2_png").css("display","inline");
-$("#hint").css("visibility","hidden");
-$("#answer").html("<h2>Applying Multimedia Principle!</h2>");
+  $("#video1_png").mouseenter( function(){
+   $("#video1_png“)css("display","none");
+   $("#video2_png").css("display","inline");
+   $("#hint").css("visibility","hidden");
+   $("#answer").html("<h2>Applying Multimedia Principle!</h2>");
 });
 
 $("#video2_png").mouseleave( function(){
-$("#video1_png").css("display","inline");
-$("#video2_png").css("display","none");
-$("#hint").css("visibility","visible");
-$("#answer").html("");
+  $("#video1_png").css("display","inline");
+  $("#video2_png").css("display","none");
+  $("#hint").css("visibility","visible");
+  $("#answer").html("");
 });
 
 });
 
 </script>
-
 	
 </head>
 
@@ -50,14 +49,13 @@ $("#answer").html("");
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RsasOZQef6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		
 	
-<p>&nbsp;</p>
 	<div id="wrapper">
- 
+ <br><br>
 <h1>See the difference</h1>
  
 <h3 id="hint"> Hover over the image below to recognize the difference!</h3>
  
-<img id="video1_png"   src="img/video1.png"/>
+<img id="video1_png" src="img/video1.png"/>
  
 <img id="video2_png" src="img/video2.png" />
  

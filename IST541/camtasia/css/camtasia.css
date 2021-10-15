@@ -67,7 +67,6 @@ img{border-radius:10px;
 	box-shadow: 0 4px 8px 0 gray, 0px 20px 0 gray;
 	
 }
-.step{width:80%; margin:auto; height:50%;}
 
 .mayer{ align-left: 40px;
 adding-left: 40px; 
@@ -87,7 +86,7 @@ width: 450px;
 height:450px;	 
 }
 
-prin{
+#prin{
 text-align: left; 
 padding-left: 40px; 
 padding-right: 40px;	
