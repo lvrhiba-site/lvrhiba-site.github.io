@@ -8,24 +8,27 @@
 <link rel="stylesheet" herf="css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script><script>
-	$( function() {
 	
-	$("#video2_png").mouseenter( function(){
-	$("#video2_png").css("display","none");
-	$("#video1_png").css("display","inline");
-	$("#hint").css("visibility","hidden");
-	$("#answer").html("<h2>Vocabulary on screen to reduce cognitive load!</h2>");
-	});
+	<script>
+$( function(){
 	
-	$("#video2_png").mouseleave( function(){
-	$("#video1_png").css("display","inline");
-	$("#video2_png").css("display","none");
-	$("#hint").css("visibility","visible");
-	$("#answer").html("");
-	});
-	
-	});
-	</script>
+$("#video1_png").mouseenter( function(){
+$("#video1_png“)css("display","none");
+$("#video2_png").css("display","inline");
+$("#hint").css("visibility","hidden");
+$("#answer").html("<h2>Applying Multimedia Principle!</h2>");
+});
+
+$("#video2_png").mouseleave( function(){
+$("#video1_png").css("display","inline");
+$("#video2_png").css("display","none");
+$("#hint").css("visibility","visible");
+$("#answer").html("");
+});
+
+});
+
+</script>
 
 	
 </head>
@@ -54,9 +57,9 @@
  
 <h3 id="hint"> Hover over the image below to recognize the difference!</h3>
  
-<img id="video2_png"   src="img/video2.png"   />
+<img id="video1_png"   src="img/video1.png"/>
  
-<img id="video1_png" src="img/video1.png" />
+<img id="video2_png" src="img/video2.png" />
  
    <div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
  
