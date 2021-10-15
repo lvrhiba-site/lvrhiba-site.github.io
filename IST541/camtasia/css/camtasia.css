@@ -65,26 +65,13 @@ h2 {
 }
 img{border-radius:10px;
 	box-shadow: 0 4px 8px 0 gray, 0px 20px 0 gray;
-	
 }
 
-.mayer{ align-left: 40px;
+#iframe{ align-left: 40px;
 adding-left: 40px; 
 padding-right: 40px;}
 
-#video1_png {
-border: black 5px solid;
-	width: 450px; 
-	height:450px;
-	  
-}
- 
- #video2_png {
-display: none;
-border: black 5px solid;
-width: 450px; 
-height:450px;	 
-}
+
 
 #prin{
 text-align: left; 

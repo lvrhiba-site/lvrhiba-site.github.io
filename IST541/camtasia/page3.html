@@ -9,31 +9,14 @@
 <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script><script>
 	
-	<script>
-$( function() {
 	
-  $("#video1_png").mouseenter( function(){
-   $("#video1_png“)css("display","none");
-   $("#video2_png").css("display","inline");
-   $("#hint").css("visibility","hidden");
-   $("#answer").html("<h2>Applying Multimedia Principle!</h2>");
-});
-
-$("#video2_png").mouseleave( function(){
-  $("#video1_png").css("display","inline");
-  $("#video2_png").css("display","none");
-  $("#hint").css("visibility","visible");
-  $("#answer").html("");
-});
-
-});
 
 </script>
 	
 </head>
 
 <body>
-	
+<wrapper>
 	<br><br>
 	<a href="index.html">Home </a>
 	<a href="page2.html">Levant </a>
@@ -45,24 +28,16 @@ $("#video2_png").mouseleave( function(){
 	<br>
 	 <h1> Richard Mayer's point of view on videos </h1>
 	
-	
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RsasOZQef6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="iframe">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RsasOZQef6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>	
 		
 	
 	<div id="wrapper">
- <br><br>
-<h1>See the difference</h1>
  
-<h3 id="hint"> Hover over the image below to recognize the difference!</h3>
- 
-<img id="video1_png" src="img/video1.png"/>
- 
-<img id="video2_png" src="img/video2.png" />
- 
-   <div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
+
  
 </div> <!-- closing  “wrapper” -->
 
-	
+	</wrapper>	
 </body>
 </html>
