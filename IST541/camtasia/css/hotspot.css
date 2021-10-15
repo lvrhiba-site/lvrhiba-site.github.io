@@ -1,13 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body {
-    text-align: center;
-	background-color: #54679B;    /* background color */
-            /* text color */
-      font-size: 12px;
+
       
-}
+
 #wrapper {
       width:900px;
       margin:0 auto;      /* centers wrapper */
