@@ -19,7 +19,7 @@ $( function() {
    
       if ($(this).attr("id") == "Palestine") {
          $("#feedback").css("color","green");
-         $("#feedback").html("Yes,Palestine is the forth Levant countries.");
+         $("#feedback").html("Yes,Palestine is the forth Levant countries.Located to the south of Lebanon and the west of Jordan");
       }
   $("#feedback").css("backgroundColor","yellow");
  $('#myModal').modal("show");
