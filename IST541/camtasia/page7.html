@@ -7,8 +7,14 @@
 	
 <link rel="stylesheet" herf="css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
-	
-<script src="js/bootstrap.min.js"></script>	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+
+<script src="js/bootstrap.min.js"></script>	<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
 </head>
 
 <body>
@@ -22,34 +28,38 @@
 	<a href="page6.html">Job aid</a>
  	<a href="page7.html">Resources</a>
 	<br>
-	 
-	<br/>
-  
-		<h1> <b>Resources </b> </h1>
-		
-	<br/>
-	
-
-
-  <div class="tab-content">
-
-
-		<br/>
-		<h2> How to do screencast video </h2>
-		<br /> <br/> 
-		<div class="iframe_resources">
-   		<iframe width="560" height="315" src="https://www.youtube.com/embed/S7WjnejR2bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+	<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Copyright Free</a></li>
+    <li><a href="#tabs-2">Screencast Video</a></li>
     
-    </div> <!--closing tab1 content-->
-	
-
-		<br/>
-	 	<h2> Copyright Free Videos </h2>
+  </ul>
+  <div id="tabs-1">
+	  <h2> Copyright Free Videos </h2>
  	 	<br/> <br/> 
  	 	 <br/>
  	 	<div class="iframe_resources">
  		<iframe width="560" height="315" src="https://www.youtube.com/embed/5Qqq3mtt7CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
 		
+    <p>
+	  </p>
+  </div>
+  <div id="tabs-2">
+    <h2> How to do screencast video </h2>
+		<br /> <br/> 
+		<div class="iframe_resources">
+   		<iframe width="560" height="315" src="https://www.youtube.com/embed/S7WjnejR2bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+  </div>
+  
+	<br/>
+	
+  <div class="tab-content">
+		
+    
+    </div> <!--closing tab1 content-->
+
+		
+	 	
 </body>
 </html>
