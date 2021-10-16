@@ -16,6 +16,8 @@ body {
 	padding-bottom: 40px;
 	padding-left: 40px;
 	badding-right: 40px;
+	box-shadow: 5px 10px #888888;
+
 }
 #box{
 background-color:#C7C7C7;
