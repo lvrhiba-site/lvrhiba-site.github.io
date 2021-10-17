@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Video</title>
+<link href="css/camtasia.css" rel="stylesheet" type="text/css">
+
+	
+<link rel="stylesheet" herf="css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+	
+	<script>
+</script>
+<script>
+   $( function() {
+	   $("#option1").click( function(){
+		   $("#feedback").html("<h2 style='color:#8D494B'> No. Please watch the video again. </h2>");
+		   
+	   });
+	   
+       $("#option2").click( function(){
+		   $("#feedback").html("<h2 style='color:#8D494B'> No. Please watch the video. </h2>");
+		   
+	   });	 
+	   
+       $("#option3").click( function(){
+		   $("#feedback").html("<h2 style='color:green'> Correct!  </h2>");
+		   
+	   });		  
+	   
+   });
+</script>
+</head>
+<body>
+<wrapper>
+	<br><br>
+	<div id="nav">
+	<a href="index.html">Home </a>
+	<a href="page2.html">Levant </a>
+	<a href="page3.html">Video </a>
+	<a href="page4.html">Principles </a>
+    <a href="page5.html">Camtasia Demo </a>
+	<a href="page6.html">Job aid</a>
+		<a href="page7.html"> Resources </a></div>
+	<br>
+	 <h1> Richard Mayer's point of view on videos </h1>
+	
+<div id="iframe">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RsasOZQef6o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>	
+		
+	
+	<div id="box">
+ <br>
+    <br>  
+  <h2>Check your knowledge:According to Mayer what causes learning is:</h2>
+  
+  <h3 id="hint">Click on one of the correct answer</h3>
+
+ <h3 id="option1" class="choices">A.Good authentic video.</h3>
+  <h3 id="option2" class="choices">B. Good classroom instruction.</h3>
+  <h3 id="option3" class="choices">C. Good instructional design that meets with good learning objectives </h3>  
+	  
+   
+  <div id="feedback"></div>
+
+  
+
+</div> <!-- closing  “wrapper” -->
+
+	</wrapper>	
+</body>
+</html>
