@@ -120,7 +120,7 @@ cursor:pointer;	}
 #tabs-1{ text-align: center;}
 #tabs-2{text-align: center; }
 #tabs-3{text-align: center; }
-#tabs-4{text-align: center; }
+
 	
 #button li{ text-align: left; display:inline;
 background-color: #978DD1;
@@ -135,7 +135,7 @@ obj {
 	padding-right: 40px;
 	color:white;
 	}
-p{
+#objectives{
 	padding-left: 40px; 
 	padding-right: 40px;
 	color:white;
