@@ -2,79 +2,88 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Resources</title>
+<title>Camtasia Training</title>
 <link href="css/capstone.css" rel="stylesheet" type="text/css">
-	
+
 <link rel="stylesheet" herf="css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-2.1.0.min.js"></script>
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
 
-<script src="js/bootstrap.min.js"></script>	<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-  <script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+ 	
+<script src="js/bootstrap.min.js"></script>	
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+<script>
   $( function() {
-    $( "#tabs" ).tabs();
+    $( "#tabs" ).tabs().addClass( "ui-tabs-vertical ui-helper-clearfix" );
+    $( "#tabs li" ).removeClass( "ui-corner-top" ).addClass( "ui-corner-left" );
   } );
   </script>
+  <style>
+  .ui-tabs-vertical { width: 55em; }
+  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+  .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+  </style>
 </head>
 
 <body>
 	
-	<br>
-	<div id="nav">
-	<a href="index.html">Home</a>
-	<a href="page2.html">Introduction</a>
-	<a href="page3.html">Video</a>
-	<a href="page4.html">Principles</a>
-    <a href="page5.html">Camtasia</a>
-	<a href="page6.html"> Job aid</a>
-	<a href="page7.html">Assessments</a>
- 	<a href="page8.html">Resources</a></div>
 	<br><br>
+	<div id="nav">
+	<a href="index.html"> Home </a>
+	<a href="page2.html"> Introduction </a>
+	<a href="page3.html"> Video </a>
+	<a href="page4.html"> Principles </a>
+    <a href="page5.html"> Camtasia </a>
+	<a href="page6.html"> Job aid </a>
+ 	<a href="page7.html"> Resources </a>
+	<a href="page8.html">Assessments</a></div>
+	
+<br>
+<br>
+<br>
+<br>	
+	<h2> Training tasks and outcomes</h2>
+
 	<div id="tabs">
-  <ul id= "button">
-    <li><a href="#tabs-1">Copyright Free</a></li>
-    <li><a href="#tabs-2">Screencast Video</a></li>
-    <li><a href="#tabs-3">Screen Recording</a></li>
-	
+  <ul id= "vertical">
+    <li><a href="#tabs-1">Screencast video</a></li>
+    <li><a href="#tabs-2">Interactive video</a></li>
+    <li><a href="#tabs-3">Post-survey</a></li>
+	<li><a href="#tabs-4">Post-test</a></li>
+	<li><a href="#tabs-5">Usability survey</a></li>
+	  
   </ul>
-	<br>
-	<h2><a href="https://www.techsmith.com/video-editor.html">Download Free Trial Camtasia</a> </h2>	
-	
-	<div id="tabs-1">
-	  <h2> Copyright Free Videos </h2>
- 	 	<br/> <br/> 
- 	 	 <br/>
- 	 	<div class="iframe_resources">
- 		<iframe width="800" height="500" src="https://www.youtube.com/embed/5Qqq3mtt7CE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
-		
-						
+  <div id="tabs-1">
+    <h2 class="assessment">Task 1 Screencast</h2>
+    <p class="text">Create a screencast instructional video. The video time limit is no more than 20- 30 seconds. You can use the topic you want to instruct your colleagues about. For example, it could be about how to open a word document? how to go to my folder on share drive? How to access the curriculum on Teams?.</p>
   </div>
+  <div id="tabs-2">
+    <h2 class="assessment">Create an Interactive video</h2>
+    <p class="text">Use Camtasia software to create your own interactive video. The video should be implementing Multimedia, Contiguity, and Signaling principles with vocabulary in context. Make sure to include at least three quizzes with feedback. Post your video on the share drive. .</p>
+  </div>
+  <div id="tabs-3">
+    <h2 class="assessment">Post-survey </h2>
+    <p class="text">Please fill out this survey.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNHF01bhWeNftvxV79ZFTddeTWkXciO2KBrlMSozyQMSzT_A/viewform?embedded=true" width="640" height="1980" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+	<div id="tabs-4">
+    <h2 class="assessment">Post-test </h2>
+    <p class="text">Please tske the Post-test .</p>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSckF4Rh8YVg8gMUcq6mD4AZ98NPTYbvVmCbwFXuimClFAGSnQ/viewform?embedded=true" width="640" height="3555" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		</div>
 		
-		<div id="tabs-2">
-    <h2> How to do screencast Vedio. </h2>
-
-		<br/> <br/> 
-	<div class="iframe_resources">
-   		<iframe width="800" height="500" src="https://www.youtube.com/embed/S7WjnejR2bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <div id="tabs-5">
+    <h2 class="assessment">Usability-survey </h2>
+    <p class="text">Tank you for your feedback.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScavZVPOWStuQvs7gE3Ty91p6BoujlGahWYigesQb0340uDJg/viewform?embedded=true" width="640" height="3416" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  </div>
+  	
 		
-		
-		
-			<div id="tabs-3">
-    <h2> Advanced Screen recording Tutorial </h2>
-		<br/> <br/> 
-		<div class="iframe_resources">
-   		<iframe width="800" height="500" src="https://www.youtube.com/embed/uDYmc-4M_eI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-				</div>
-
-				
-	<br/>
+</div>
 	
-  <div class="tab-content">
-		
-   
-    </div> <!--closing tab1 content-->
-
-	<br><br><br>	
-				 	
+<br><br><br>	
 </body>
 </html>

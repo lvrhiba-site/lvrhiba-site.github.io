@@ -141,3 +141,17 @@ obj {
 	color:white;
 	font-size:20px;
 }
+#vertical li{ text-align: left;
+background-color: #978DD1;
+padding: 15px;
+margin: 20px;}
+#accordion{ width:50%; margin:0 auto;}
+
+.text{ 
+padding-left:50px;
+	display: flex;
+	justify-content: center;
+	font-size:24px;
+	text-align:left;
+	margin: 5px auto;
+}
