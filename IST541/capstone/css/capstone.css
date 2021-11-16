@@ -156,5 +156,10 @@ padding-left:50px;
 	text-align:left;
 	margin: 5px auto;
 }
-tabs-1{width:1000px;}
-tabs-2{width:1000px;}
+#tabs-1{width:1000px;}
+#tabs-2{width:1000px;}
+#tabs-3{width:1000px;}
+
+#note{color:#C6DDD0;
+	font-size:20px;
+	text-align:left;}
