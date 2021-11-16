@@ -107,7 +107,8 @@ details.style{
 		
 details.style summary{
 outline: none;
-cursor:pointer;	}
+cursor:pointer;
+background-color: #8DA1E9}
 
 
 .choices{
@@ -156,8 +157,6 @@ padding-left:50px;
 	text-align:left;
 	margin: 5px auto;
 }
-
-
 #note{color:#EFF1FC;
 	font-size:20px;
 	text-align:left;}
